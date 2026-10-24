@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+scikit-learn==1.6.0
+imbalanced-learn
+lightgbm
+joblib
+scipy
