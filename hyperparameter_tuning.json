@@ -1,0 +1,23 @@
+{
+  "tuned": true,
+  "model": "Stacking (class_weight)",
+  "best_params": {
+    "clf__final_estimator__C": 0.1911275821777789,
+    "clf__lgbm__colsample_bytree": 0.9272059063689972,
+    "clf__lgbm__learning_rate": 0.07256556536786182,
+    "clf__lgbm__min_child_samples": 10,
+    "clf__lgbm__n_estimators": 236,
+    "clf__lgbm__num_leaves": 15,
+    "clf__lgbm__reg_lambda": 0.04637921903458034,
+    "clf__lgbm__subsample": 0.6479461469334731,
+    "clf__lr__C": 0.10300196600986772,
+    "clf__passthrough": false,
+    "clf__rf__max_depth": 6,
+    "clf__rf__max_features": 0.5,
+    "clf__rf__min_samples_leaf": 8,
+    "clf__rf__n_estimators": 432
+  },
+  "search_best_inner_cv_pr_auc": 0.29041305521384997,
+  "fresh_cv_pr_auc_default": 0.2851262287792554,
+  "fresh_cv_pr_auc_tuned": 0.28558398214569186
+}
